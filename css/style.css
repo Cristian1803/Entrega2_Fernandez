@@ -39,7 +39,7 @@ ul li a {
     padding: 15px;
 }
 
-@media (max-width:320px){
+@media (max-width:330px){
   ul{
     flex-wrap: nowrap;
   }
@@ -81,10 +81,11 @@ flex-direction: column;
     
     }
   
-  .imagen-1 { grid-area: imagen-1;}
+  .imagen-1 { grid-area: imagen-1;
+}
 
   .parrafo-2 { grid-area: parrafo-2; 
-    padding: 30px;}
+    padding: 20px;}
   
   .imagen-2 { grid-area: imagen-2; }
 
@@ -212,10 +213,11 @@ border-radius: 10px;
 }
 
 
-@media (max-width:320px){
+@media (max-width:330px){
   .carousel-item{
     width: 100%;
     height: 200px;
     object-fit:cover; 
+    
   }
 }
